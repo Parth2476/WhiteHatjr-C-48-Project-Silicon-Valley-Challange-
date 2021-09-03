@@ -381,7 +381,7 @@ function draw() {
           if(satellite.y<-900 && satellite.y>-1300){
           textSize(20);
           fill("CYAN")
-          text("Use space to fire (fireing will destroy the asteroids)", camera.position.x-680, camera.position.y-300)
+          text("Use space to fire", camera.position.x-680, camera.position.y-300)
           }
           
 
